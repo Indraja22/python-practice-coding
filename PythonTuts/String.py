@@ -1,0 +1,25 @@
+myStr = "Harry is a good boy"
+print(myStr)
+# String Slicing
+print(myStr[0:5])
+print(myStr[0:78])
+print(myStr[0:5:2])
+print(myStr[:5:2])
+print(myStr[0::2])
+print(myStr[::])
+print(myStr[0:19:1])
+print(myStr[-4:-2])
+print(myStr[15:17])
+# Reverse a String
+print(myStr[::-1])
+# Length of the String
+print(len(myStr))
+print(type(myStr))
+print(myStr.isalnum())
+print(myStr.isalpha())
+print(myStr.count("o"))
+print(myStr.capitalize())
+print(myStr.upper())
+print(myStr.lower())
+print(myStr.endswith("boy"))
+print((myStr.replace("Harry","John")).upper())
